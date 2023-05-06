@@ -1,0 +1,26 @@
+<PRTG>
+  <result>
+    <channel>Chassis 1 PoE drawn</channel>
+    <value>0</value>
+    <unit>Percent</unit>
+    <float>0</float>
+  </result>
+  <result>
+    <channel>Chassis 1 PSU Health</channel>
+    <value>100</value>
+    <unit>Percent</unit>
+    <float>0</float>
+  </result>
+  <result>
+    <channel>CPU Temp</channel>
+    <value>51.8</value>
+    <unit>Temperature</unit>
+    <float>1</float>
+  </result>
+  <result>
+    <channel>Inlet-Air Temp</channel>
+    <value>27.0</value>
+    <unit>Temperature</unit>
+    <float>1</float>
+  </result>
+</PRTG>

@@ -1,0 +1,824 @@
+{
+  "chassis,1": {
+    "fans": {},
+    "poe_power": {
+      "available_power": 740,
+      "drawn_power": 19.66,
+      "failover_power": 370,
+      "power_status_refresh_timestamp": 15739,
+      "power_status_update_timestamp": 15739,
+      "redundant_power": 0,
+      "reserved_power": 21.52
+    },
+    "power_supplies": {
+      "1/1": {
+        "characteristics": {
+          "instantaneous_power": 39,
+          "maximum_power": 680
+        },
+        "identity": {
+          "airflow": "F2B",
+          "description": "Aruba X372 54VDC 680W PS",
+          "hardware_rev": "07",
+          "input_voltage_high": 240,
+          "input_voltage_low": 100,
+          "model_number": "0957-2475",
+          "product_name": "JL086A",
+          "serial_number": "deleted",
+          "voltage_type": "AC"
+        },
+        "name": "1/1",
+        "redundant_psu": [],
+        "statistics": {
+          "failures": 0,
+          "warnings": 0
+        },
+        "status": "ok"
+      },
+      "1/2": {
+        "characteristics": {
+          "instantaneous_power": 40,
+          "maximum_power": 680
+        },
+        "identity": {
+          "airflow": "F2B",
+          "description": "Aruba X372 54VDC 680W PS",
+          "hardware_rev": "07",
+          "input_voltage_high": 240,
+          "input_voltage_low": 100,
+          "model_number": "0957-2475",
+          "product_name": "JL086A",
+          "serial_number": "deleted",
+          "voltage_type": "AC"
+        },
+        "name": "1/2",
+        "redundant_psu": [],
+        "statistics": {
+          "failures": 0,
+          "warnings": 0
+        },
+        "status": "ok"
+      }
+    },
+    "temp_sensors": {}
+  },
+  "chassis,10": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,2": {
+    "fans": {},
+    "poe_power": {
+      "available_power": 740,
+      "failover_power": 370,
+      "power_status_refresh_timestamp": 152045,
+      "power_status_update_timestamp": 152045,
+      "redundant_power": 0
+    },
+    "power_supplies": {
+      "2/1": {
+        "characteristics": {
+          "instantaneous_power": 32,
+          "maximum_power": 680
+        },
+        "identity": {
+          "airflow": "F2B",
+          "description": "Aruba X372 54VDC 680W PS",
+          "hardware_rev": "07",
+          "input_voltage_high": 240,
+          "input_voltage_low": 100,
+          "model_number": "0957-2475",
+          "product_name": "JL086A",
+          "serial_number": "deleted",
+          "voltage_type": "AC"
+        },
+        "name": "2/1",
+        "redundant_psu": [],
+        "statistics": {
+          "failures": 0,
+          "warnings": 0
+        },
+        "status": "ok"
+      },
+      "2/2": {
+        "characteristics": {
+          "instantaneous_power": 27,
+          "maximum_power": 680
+        },
+        "identity": {
+          "airflow": "F2B",
+          "description": "Aruba X372 54VDC 680W PS",
+          "hardware_rev": "07",
+          "input_voltage_high": 240,
+          "input_voltage_low": 100,
+          "model_number": "0957-2475",
+          "product_name": "JL086A",
+          "serial_number": "deleted",
+          "voltage_type": "AC"
+        },
+        "name": "2/2",
+        "redundant_psu": [],
+        "statistics": {
+          "failures": 0,
+          "warnings": 0
+        },
+        "status": "ok"
+      }
+    },
+    "temp_sensors": {}
+  },
+  "chassis,3": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,4": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,5": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,6": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,7": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,8": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "chassis,9": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,1/1": {
+    "fans": {
+      "Tray-1/1/1": {
+        "direction": "f2b",
+        "name": "Tray-1/1/1",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4185,
+        "speed": "slow",
+        "status": "ok"
+      },
+      "Tray-1/1/2": {
+        "direction": "f2b",
+        "name": "Tray-1/1/2",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4154,
+        "speed": "slow",
+        "status": "ok"
+      }
+    },
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,1/2": {
+    "fans": {
+      "Tray-1/2/1": {
+        "direction": "f2b",
+        "name": "Tray-1/2/1",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4115,
+        "speed": "slow",
+        "status": "ok"
+      },
+      "Tray-1/2/2": {
+        "direction": "f2b",
+        "name": "Tray-1/2/2",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4165,
+        "speed": "slow",
+        "status": "ok"
+      }
+    },
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,10/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,10/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,2/1": {
+    "fans": {
+      "Tray-2/1/1": {
+        "direction": "f2b",
+        "name": "Tray-2/1/1",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4172,
+        "speed": "slow",
+        "status": "ok"
+      },
+      "Tray-2/1/2": {
+        "direction": "f2b",
+        "name": "Tray-2/1/2",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4156,
+        "speed": "slow",
+        "status": "ok"
+      }
+    },
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,2/2": {
+    "fans": {
+      "Tray-2/2/1": {
+        "direction": "f2b",
+        "name": "Tray-2/2/1",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4139,
+        "speed": "slow",
+        "status": "ok"
+      },
+      "Tray-2/2/2": {
+        "direction": "f2b",
+        "name": "Tray-2/2/2",
+        "product_info": {
+          "device_version": "N/A",
+          "manufacturer": "N/A",
+          "serial_number": "N/A"
+        },
+        "rpm": 4139,
+        "speed": "slow",
+        "status": "ok"
+      }
+    },
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,3/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,3/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,4/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,4/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,5/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,5/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,6/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,6/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,7/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,7/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,8/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,8/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,9/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "fan_tray,9/2": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,1/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {
+      "1/1-PHY-01-08": {
+        "fan_state": null,
+        "location": "External phy ports 1 to 8",
+        "max": 43000,
+        "min": 37000,
+        "name": "1/1-PHY-01-08",
+        "status": "normal",
+        "temperature": 41000
+      },
+      "1/1-PHY-09-16": {
+        "fan_state": null,
+        "location": "External phy ports 9 to 16",
+        "max": 39000,
+        "min": 35000,
+        "name": "1/1-PHY-09-16",
+        "status": "normal",
+        "temperature": 37000
+      },
+      "1/1-PHY-17-24": {
+        "fan_state": null,
+        "location": "External phy ports 17 to 24",
+        "max": 42000,
+        "min": 38000,
+        "name": "1/1-PHY-17-24",
+        "status": "normal",
+        "temperature": 41000
+      },
+      "1/1-PHY-25-32": {
+        "fan_state": null,
+        "location": "External phy ports 25 to 32",
+        "max": 43000,
+        "min": 39000,
+        "name": "1/1-PHY-25-32",
+        "status": "normal",
+        "temperature": 41000
+      },
+      "1/1-PHY-33-40": {
+        "fan_state": null,
+        "location": "External phy ports 33 to 40",
+        "max": 44000,
+        "min": 38000,
+        "name": "1/1-PHY-33-40",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "1/1-PHY-41-48": {
+        "fan_state": null,
+        "location": "External phy ports 41 to 48",
+        "max": 44000,
+        "min": 38000,
+        "name": "1/1-PHY-41-48",
+        "status": "normal",
+        "temperature": 41000
+      },
+      "1/1-Switch-ASIC-Internal": {
+        "fan_state": null,
+        "location": "asic",
+        "max": 58000,
+        "min": 45125,
+        "name": "1/1-Switch-ASIC-Internal",
+        "status": "normal",
+        "temperature": 54875
+      }
+    }
+  },
+  "line_card,10/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,2/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {
+      "2/1-PHY-01-08": {
+        "fan_state": null,
+        "location": "External phy ports 1 to 8",
+        "max": 42000,
+        "min": 38000,
+        "name": "2/1-PHY-01-08",
+        "status": "normal",
+        "temperature": 39000
+      },
+      "2/1-PHY-09-16": {
+        "fan_state": null,
+        "location": "External phy ports 9 to 16",
+        "max": 42000,
+        "min": 37000,
+        "name": "2/1-PHY-09-16",
+        "status": "normal",
+        "temperature": 40000
+      },
+      "2/1-PHY-17-24": {
+        "fan_state": null,
+        "location": "External phy ports 17 to 24",
+        "max": 43000,
+        "min": 38000,
+        "name": "2/1-PHY-17-24",
+        "status": "normal",
+        "temperature": 41000
+      },
+      "2/1-PHY-25-32": {
+        "fan_state": null,
+        "location": "External phy ports 25 to 32",
+        "max": 45000,
+        "min": 39000,
+        "name": "2/1-PHY-25-32",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "2/1-PHY-33-40": {
+        "fan_state": null,
+        "location": "External phy ports 33 to 40",
+        "max": 45000,
+        "min": 39000,
+        "name": "2/1-PHY-33-40",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "2/1-PHY-41-48": {
+        "fan_state": null,
+        "location": "External phy ports 41 to 48",
+        "max": 46000,
+        "min": 40000,
+        "name": "2/1-PHY-41-48",
+        "status": "normal",
+        "temperature": 43000
+      },
+      "2/1-Switch-ASIC-Internal": {
+        "fan_state": null,
+        "location": "asic",
+        "max": 59500,
+        "min": 44875,
+        "name": "2/1-Switch-ASIC-Internal",
+        "status": "normal",
+        "temperature": 56500
+      }
+    }
+  },
+  "line_card,3/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,4/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,5/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,6/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,7/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,8/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "line_card,9/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,1/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {
+      "1/1-CPU": {
+        "fan_state": null,
+        "location": "cpu",
+        "max": 49062,
+        "min": 38750,
+        "name": "1/1-CPU",
+        "status": "normal",
+        "temperature": 44375
+      },
+      "1/1-CPU-Zone-0": {
+        "fan_state": null,
+        "location": "Near DDR Controller",
+        "max": 47000,
+        "min": 36000,
+        "name": "1/1-CPU-Zone-0",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "1/1-CPU-Zone-1": {
+        "fan_state": null,
+        "location": "Near SerDes",
+        "max": 46000,
+        "min": 36000,
+        "name": "1/1-CPU-Zone-1",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "1/1-CPU-Zone-2": {
+        "fan_state": null,
+        "location": "Near Frame Manager",
+        "max": 46000,
+        "min": 36000,
+        "name": "1/1-CPU-Zone-2",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "1/1-CPU-Zone-3": {
+        "fan_state": null,
+        "location": "Near ARM A72 Core",
+        "max": 47000,
+        "min": 36000,
+        "name": "1/1-CPU-Zone-3",
+        "status": "normal",
+        "temperature": 42000
+      },
+      "1/1-CPU-Zone-4": {
+        "fan_state": null,
+        "location": "SEC",
+        "max": 46000,
+        "min": 37000,
+        "name": "1/1-CPU-Zone-4",
+        "status": "normal",
+        "temperature": 43000
+      },
+      "1/1-DDR": {
+        "fan_state": null,
+        "location": "ddr4-rdimm",
+        "max": 42250,
+        "min": 34750,
+        "name": "1/1-DDR",
+        "status": "normal",
+        "temperature": 40250
+      },
+      "1/1-Inlet-Air": {
+        "fan_state": null,
+        "location": "inlet-air",
+        "max": 25000,
+        "min": 23000,
+        "name": "1/1-Inlet-Air",
+        "status": "normal",
+        "temperature": 23500
+      },
+      "1/1-Mainboard-IBC": {
+        "fan_state": null,
+        "location": "Mainboard IBC",
+        "max": 40562,
+        "min": -29562,
+        "name": "1/1-Mainboard-IBC",
+        "status": "normal",
+        "temperature": 38500
+      },
+      "1/1-Switch-ASIC-Remote": {
+        "fan_state": null,
+        "location": "asic",
+        "max": 59687,
+        "min": 40875,
+        "name": "1/1-Switch-ASIC-Remote",
+        "status": "normal",
+        "temperature": 56312
+      }
+    }
+  },
+  "management_module,10/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,2/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {
+      "2/1-CPU": {
+        "fan_state": null,
+        "location": "cpu",
+        "max": 49312,
+        "min": 41625,
+        "name": "2/1-CPU",
+        "status": "normal",
+        "temperature": 45875
+      },
+      "2/1-CPU-Zone-0": {
+        "fan_state": null,
+        "location": "Near DDR Controller",
+        "max": 47000,
+        "min": 39000,
+        "name": "2/1-CPU-Zone-0",
+        "status": "normal",
+        "temperature": 44000
+      },
+      "2/1-CPU-Zone-1": {
+        "fan_state": null,
+        "location": "Near SerDes",
+        "max": 46000,
+        "min": 39000,
+        "name": "2/1-CPU-Zone-1",
+        "status": "normal",
+        "temperature": 44000
+      },
+      "2/1-CPU-Zone-2": {
+        "fan_state": null,
+        "location": "Near Frame Manager",
+        "max": 46000,
+        "min": 39000,
+        "name": "2/1-CPU-Zone-2",
+        "status": "normal",
+        "temperature": 44000
+      },
+      "2/1-CPU-Zone-3": {
+        "fan_state": null,
+        "location": "Near ARM A72 Core",
+        "max": 47000,
+        "min": 39000,
+        "name": "2/1-CPU-Zone-3",
+        "status": "normal",
+        "temperature": 44000
+      },
+      "2/1-CPU-Zone-4": {
+        "fan_state": null,
+        "location": "SEC",
+        "max": 47000,
+        "min": 40000,
+        "name": "2/1-CPU-Zone-4",
+        "status": "normal",
+        "temperature": 45000
+      },
+      "2/1-DDR": {
+        "fan_state": null,
+        "location": "ddr4-rdimm",
+        "max": 44250,
+        "min": 36250,
+        "name": "2/1-DDR",
+        "status": "normal",
+        "temperature": 42250
+      },
+      "2/1-Inlet-Air": {
+        "fan_state": null,
+        "location": "inlet-air",
+        "max": 26500,
+        "min": 24500,
+        "name": "2/1-Inlet-Air",
+        "status": "normal",
+        "temperature": 25000
+      },
+      "2/1-Mainboard-IBC": {
+        "fan_state": null,
+        "location": "Mainboard IBC",
+        "max": 42687,
+        "min": -27625,
+        "name": "2/1-Mainboard-IBC",
+        "status": "normal",
+        "temperature": 40625
+      },
+      "2/1-Switch-ASIC-Remote": {
+        "fan_state": null,
+        "location": "asic",
+        "max": 61187,
+        "min": 46250,
+        "name": "2/1-Switch-ASIC-Remote",
+        "status": "normal",
+        "temperature": 57937
+      }
+    }
+  },
+  "management_module,3/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,4/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,5/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,6/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,7/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,8/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  },
+  "management_module,9/1": {
+    "fans": {},
+    "poe_power": {},
+    "power_supplies": {},
+    "temp_sensors": {}
+  }
+}
