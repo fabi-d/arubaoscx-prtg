@@ -11,25 +11,54 @@ class PRTGXML {
   }
 
   # add sensor channel
-  [void] addSensorChannel([string] $Name, [string] $Value, [string] $Unit, [int] $Float) {
+  [void] addSensorChannel([Object] $Sensor) {
     $prtgResult = $this.xml.CreateElement("result")
     $this.root.AppendChild($prtgResult) | Out-Null
   
     $prtgChannel = $this.xml.CreateElement("channel")
-    $prtgChannel.InnerText = $Name
+    $prtgChannel.InnerText = $Sensor.Name
     $prtgResult.AppendChild($prtgChannel) | Out-Null
   
     $prtgValue = $this.xml.CreateElement("value")
-    $prtgValue.InnerText = $Value
+    $prtgValue.InnerText = $Sensor.Value
     $prtgResult.AppendChild($prtgValue) | Out-Null
   
     $prtgUnit = $this.xml.CreateElement("unit")
-    $prtgUnit.InnerText = $Unit
+    $prtgUnit.InnerText = $Sensor.Unit
     $prtgResult.AppendChild($prtgUnit) | Out-Null
+
+    if($Sensor.Float -eq $true) {
+      $prtgFloat = $this.xml.CreateElement("float")
+      $prtgFloat.InnerText = 1
+      $prtgResult.AppendChild($prtgFloat) | Out-Null
+    }
+
+    if($null -ne $Sensor.LookupName) {
+      $prtgLookupName = $this.xml.CreateElement("valuelookup")
+      $prtgLookupName.InnerText = $Sensor.LookupName
+      $prtgResult.AppendChild($prtgLookupName) | Out-Null
+    }
+
+    if($Sensor.LimitMaxError -ne $null) {
+      $prtgLimitMaxError = $this.xml.CreateElement("limitmaxerror")
+      $prtgLimitMaxError.InnerText = $Sensor.LimitMaxError
+      $prtgResult.AppendChild($prtgLimitMaxError) | Out-Null
+
+    }
+
+    if($Sensor.LimitMinError -ne $null) {
+      $prtgLimitMinError = $this.xml.CreateElement("limitminerror")
+      $prtgLimitMinError.InnerText = $Sensor.LimitMinError
+      $prtgResult.AppendChild($prtgLimitMinError) | Out-Null
+    }
+
+    if($Sensor.LimitMaxError -ne $null -or $Sensor.LimitMinError -ne $null) {
+      $prtgLimitMode = $this.xml.CreateElement("limitmode")
+      $prtgLimitMode.InnerText = 1
+      $prtgResult.AppendChild($prtgLimitMode) | Out-Null
+    }
   
-    $prtgFloat = $this.xml.CreateElement("float")
-    $prtgFloat.InnerText = $Float
-    $prtgResult.AppendChild($prtgFloat) | Out-Null
+
   }
 
   # write XML

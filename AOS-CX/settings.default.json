@@ -1,0 +1,29 @@
+{
+    "Connection": {
+        "TrustAllCertificates":  "true"
+    },
+    "System": {
+        "EnableFanTrayMonitoring": "true",
+        "EnablePowerSupplyMonitoring": "true",
+        "EnableTemperatureMonitoring": "true",
+        "EnablePowerOverEthernetMonitoring": "true",
+        "CpuTemperatureThreshold": "65",
+        "AirInletTemperatureThreshold": "45"
+    },
+    "Transceiver": {
+        "EnableTransceiverMonitoring": "true",
+        "IgnoreWaitingForLinkPorts": "true",
+        "IgnoreAdminDownPorts": "true"
+    },
+    "Version": {
+        "EnableVersionMonitoring": "false",
+        "MinimumVersion": {
+            "Major": "10",
+            "Minor": "11",
+            "Patch": "0"
+        }
+    },
+    "Configuration": {
+        "EnableConfigurationSavedMonitoring": "true"
+    }
+}
